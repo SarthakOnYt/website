@@ -1,0 +1,73 @@
+img.main{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+}
+/* Common div styles */
+div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    gap: 50px;
+    margin-top: 50px;
+}
+  
+  /* Specific styles for top_intro */
+div.top_intro {
+    border-radius: 50px;
+    margin-top: 0px;
+}
+  
+  /* Specific styles for news */
+div.news {
+    display: grid;
+    border-radius: 100px;
+    justify-content: center;
+    padding: 20px; /* Added padding for better spacing */
+}
+  
+  /* Center the h1 within the news div */
+div.news h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 20px 0; /* Added margin for spacing between h1 and ul */
+}
+  
+  /* Align the ul to the left within the news div */
+div.news ul {
+    align-self: start;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensure ul takes full width */
+}
+  
+  /* Ensure long words break within list items */
+div.news ul li {
+    word-break: break-all;
+    padding: 5px 0; /* Added padding for better spacing within list items */
+}
+  
+/* Navigation alingment*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color:black;
+}

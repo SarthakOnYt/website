@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(2, 106, 141);
+}
+
+
+div.main_top{
+    font-style: italic;
+    font-size: 20px;
+    align-items: center;
+    position: fixed;
+
+    display: flex;
+    height: 100px;
+    width:-webkit-fill-available;
+    background-color: black;
+    
+}
+div.top_intro{
+    font-style: italic;
+    font-size: 20px;
+    align-items: center;
+    position: fixed;
+
+    display: flex;
+    height: 100px;
+    width:-webkit-fill-available;
+    
+    margin: 120px;
+}
+img.main{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+}
+a.top_intro{
+    color: white;
+    position: fixed;
+}
